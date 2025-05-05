@@ -1,0 +1,27 @@
+body {
+    background: gray;
+}
+
+header {
+    width: 800px;
+    border: solid orangered;
+    background:   brown;
+}
+
+main {
+    width: 800px;
+    border: dotted rgb(189, 60, 0);
+    background: chocolate;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: brown;
+}
