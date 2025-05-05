@@ -1,0 +1,39 @@
+body {
+    background-color: darkslateblue;
+    width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    border: 4px dashed navajowhite;
+    width: 700px;
+    margin: 0 auto;
+}
+
+main {
+    border: 5px solid honeydew;
+    width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+    border: 4px dotted blanchedalmond;
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: red;
+}
+p  {
+    color: darkolivegreen;
+}
+
+#ensayo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pi {
+    color: lightblue;
+}

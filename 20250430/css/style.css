@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header  {
+    width: 1200px;
+    /* height: 100px; */
+    border: red solid 5px;
+}
+section {
+    border: gray solid;
+    height: 100px;
+}
+
+#h_left {
+    width: 200px;
+    float: left;
+}
+
+nav {
+    border: 2px solid;
+    border-radius: 1.2rem;
+    margin: 1px;
+}
+nav a {
+    text-decoration: none;
+    color: wheat;
+}
+
+aside {
+    border: solid green;
+    width: 300px;
+    float: left;
+    height: 300px;
+}
+
+main {
+    border: lightskyblue solid;
+    height: 300px;
+    font-size: 20px;
+}
+
+main section {
+    font-size: .8em;
+    width: 800px;
+    float: right;
+}
+
+footer {
+    height: 5vh;
+    border: purple solid;
+    padding: 1rem 10rem;
+}
+
+.lista {
+    list-style: none;
+    display: inline;
+    padding: 16.5px;
+    background: navy;
+}
+
+#Ulista {
+    padding: 1rem;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {background: rgb(83, 83, 83);}
+        main {background: rgb(133, 133, 133); padding: 1rem;}
+        label {display: block;}
+        
+    </style>
+</head>
+<body>
+    <header>
+        FORMULARIO
+    </header>
+    <main>
+        <form action="">
+            <label for="InName">Nombre:
+                <input type="text" name="InName" id="InName" required placeholder="john">
+            </label>
+            <label for="InLastname">Apellido:
+                <input type="text" name="InLastname" id="InLastname" required placeholder="doe">
+            </label>
+            <label for="InAddress">Direccion:
+                <input type="text" name="InAddress" id="InAddress" placeholder="cra. 1# 1-11">
+            </label>
+            <label for="InPhone">Celular:
+                <input type="text" name="InPhone" id="InPhone" placeholder="312 345 6789">
+            </label>
+            <label for="InEmail">Correo:
+                <input type="email" name="InEmail" id="InEmail" required placeholder="example@mail.com">
+            </label>
+            <label for="InGenero">Sexo:
+                <input type="radio" name="Genere" id="InGenero" value="Masculino">Masculino
+                <input type="radio" name="Genere" id="InGenero" value="Femenino">Femenino
+            </label>
+            <label for="InEntertaiment">Pasatiempos:
+                <input type="checkbox" name="InEntertaiment" id="InEntertaiment" value="instrumento">Instrumento musical
+                <input type="checkbox" name="InEntertaiment" id="InEntertaiment" value="baile">Baile
+                <input type="checkbox" name="InEntertaiment" id="InEntertaiment" value="canto">Canto
+                <input type="checkbox" name="InEntertaiment" id="InEntertaiment" value="cocina">Cocina
+                <input type="checkbox" name="InEntertaiment" id="InEntertaiment" value="deporte">Deporte
+                <input type="checkbox" name="InEntertaiment" id="InEntertaiment" value="lectura">Lectura
+            </label>
+            <label for="psw">Contraseña:
+                <input type="password" name="psw" id="psw" required>
+            </label>
+            <label for="bd">Fecha de Nacimiento
+                <input type="date" name="bd" id="bd">
+            </label>
+            <label for="Comm">Comentarios: <br>
+                <textarea name="Comm" id="Comm"></textarea>
+            </label>
+            <input type="button" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
