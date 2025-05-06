@@ -1,0 +1,43 @@
+body {
+    width: 750px;
+    background: gainsboro;
+}
+
+header {
+    border: 1px;
+    text-align: center;
+    color: brown;
+}
+main {
+    border: solid;
+    padding: 10px;
+    border-radius: 1.5rem;
+}
+
+.ht {
+    text-decoration: none;
+    color: orangered;
+}
+.cs {
+    text-decoration: none;
+}
+
+#d2 {
+    border: solid;
+    padding: 10px;
+    border-radius: 1.5rem;
+}
+
+#th {
+    color: orangered;
+    border:solid;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+#sc {
+    color: blue;
+    border:solid;
+    border-radius: 1rem;
+    padding: 10px;
+}
