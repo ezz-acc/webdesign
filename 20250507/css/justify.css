@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    background: purple;
+}
+
+article {
+    width: 100px;
+    background: orange;
+}
+
+section, article {
+    border: solid 3px;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#a1 {justify-content: flex-start;}
+#a2 {justify-content: flex-end;}
+#a3 {justify-content: center;}
+#a4 {justify-content: space-between;}
+#a5 {justify-content: space-around;}
+#a6 {justify-content: space-evenly;}
+
+.s1 {
+    height: 95px;
+
+}
+.s2 {
+    height: 150px;
+
+}
+.s3 {
+    height: 60px;
+
+}
