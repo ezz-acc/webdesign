@@ -22,8 +22,8 @@ main {
     text-decoration: none;
 }
 
-#d2 {
-    border: solid;
+#d2 , #d3 {
+    border: solid purple;
     padding: 10px;
     border-radius: 1.5rem;
 }
