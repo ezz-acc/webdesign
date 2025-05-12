@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: gray;
+}
+
+section, article {
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid 3px black;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+section {
+    background: purple;
+    display: flex;
+}
+
+article  {
+    background: orange;
+    height: 100px;
+    flex-grow: 1;
+    align-content: center;
+    text-align: center;
+}
+
+#a1 { order: 0; }
+#a2 { order: -1; }
+#a3 { order: 3; }
+#a4 { order: 1; }
+#a5 { order: 6; }
+#a6 { order: 1; }
