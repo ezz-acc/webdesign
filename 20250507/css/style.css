@@ -1,0 +1,39 @@
+main {
+    background: lightblue;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section,article {
+    border: solid wheat;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+section {
+    background: purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 47.5%;
+}
+
+article {
+    background: orange;
+    width: 100px;
+}
+
+.s1 {height: 75px;}
+.s2 {height: 175px;}
+.s3 {height: 125px;}
+.s4 {height: 250px;}
+
+#a1 {align-items: flex-start;}
+#a2 {align-items: flex-end;}
+#a3 {align-items: center;}
+#a4 {align-items: stretch;}
+#a5 {align-items: baseline; width: 100%;}
+
+#a5 article {align-content: center; width: 20%;}
