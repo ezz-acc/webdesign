@@ -1,0 +1,21 @@
+main {
+    background: lightblue;
+    padding: 1rem;
+}
+section, article {
+    border: solid wheat;
+    margin: 10px;
+    border-radius: 1rem;
+}
+section {
+    background-color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article {
+    background: orange;
+    width: 48%;
+    height: 100px;
+}
+#t {width: 100%;}

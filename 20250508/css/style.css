@@ -1,6 +1,9 @@
 main {
-    background: violet;
+    background: lightblue;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 section,article {
@@ -12,7 +15,9 @@ section,article {
 section {
     background: purple;
     display: flex;
-    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 47.5%;
 }
 
 article {
@@ -29,6 +34,6 @@ article {
 #a2 {align-items: flex-end;}
 #a3 {align-items: center;}
 #a4 {align-items: stretch;}
-#a5 {align-items: baseline;}
+#a5 {align-items: baseline; width: 100%;}
 
-#a5 article {align-content: center;}
+#a5 article {align-content: center; width: 20%;}
