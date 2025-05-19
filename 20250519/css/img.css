@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: wheat;
+    padding: 1rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 50px);
+    background: #324759;
+}
+
+article {margin: 5px; padding: 1rem;}
+
+article a {text-decoration: none; color: #ffd700; width: 209px; height: 90px;}
+article a:hover {color: white;}
+
+#a1 {
+    background: whitesmoke;
+    grid-area: 2/2/5/4;
+    z-index: 1;
+}
+#a2 {
+    background: goldenrod;
+    grid-area: 6/2/9/5;
+    z-index: 1;
+}
+#a3 {
+    grid-area: 3/4/8/9;
+    z-index: 0;
+}
+#a4 {
+    background: black;
+    grid-area: 8/8/10/10;
+    z-index: 1;
+    text-align: center;
+}
