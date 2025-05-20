@@ -32,7 +32,7 @@ article a:hover {color: white;}
     z-index: 1;
 }
 #a3 {
-    grid-area: 3/4/8/9;
+    grid-area: 2/4/8/9;
     z-index: 0;
 }
 #a4 {
