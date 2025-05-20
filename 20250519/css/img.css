@@ -16,28 +16,49 @@ section {
     background: #324759;
 }
 
-article {margin: 5px; padding: 1rem;}
-
-article a {text-decoration: none; color: #ffd700; width: 209px; height: 90px;}
-article a:hover {color: white;}
-
-#a1 {
-    background: whitesmoke;
-    grid-area: 2/2/5/4;
+#hero h2 {
+    background: white;
+    grid-area: 2/2/5/5;
     z-index: 1;
+    border-radius: 1rem;
+    font-size: 35px;
+    padding: 10px;
+    margin: 1.5rem;
+    margin-left: 0px;
+    margin-right: 7
+    rem;
 }
-#a2 {
+
+#hero p {
     background: goldenrod;
     grid-area: 6/2/9/5;
     z-index: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: larger;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
-#a3 {
+
+#hero img {
     grid-area: 2/4/8/9;
     z-index: 0;
 }
-#a4 {
+
+#hero a {
     background: black;
     grid-area: 8/8/10/10;
     z-index: 1;
     text-align: center;
+    text-decoration: none;
+    color: #ffd700;
+    box-shadow: 3px 3px 5px #ffd700;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#hero a:hover {
+    background: white;
+    color: blue;
+    box-shadow: 3px 3px 5px blue;
 }
