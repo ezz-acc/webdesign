@@ -1,22 +1,21 @@
 * {box-sizing: border-box; margin: 0; padding: 0;}
-body {display: grid; grid-template-rows: 120x 44px 1fr 80px; background: rgb(68, 68, 99);}
+body {display: grid; grid-template-columns: 300px 2fr; grid-template-rows: 110x 44px 1fr 80px; background: #444463;}
 
 header, main, section, nav {margin: 5px;}
 
 header {
     grid-column: 1/-1;
     display: grid;
+    text-align: center;
     grid-template-rows: 110px;
-    grid-template-columns: 2fr 4fr;
-    background: #536472;
+    grid-template-columns: 1fr;
+    background: #3B4E5D;
 }
 
-header img {width: 100px; justify-self: center; align-self: center;}
-
-header h1 {align-self: center; font-size: xx-large; grid-column: 2/3;}
+header h1 {align-self: center; font-size: xx-large; justify-self: center;}
 nav {
     grid-column: 1/-1;
-    background-color: #5D5D7C;
+    background-color: #5d5d7c;
 }
 nav ul {
     display: grid;
@@ -25,11 +24,11 @@ nav ul {
 }
 
 nav a {
-    background: #5D5D7C;
+    background: #3c3c5f;
     color: aliceblue;
     display: block;
     text-decoration: none;
-    border: solid lightsteelblue;
+    border: solid #7a7a96;
     padding: 10px 1rem;
     text-align: center;
 }
@@ -39,8 +38,21 @@ nav a:hover {
     font-weight: 900;
 }
 
+#s1 {
+    background-color: #1C1C3D;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#s1 li {list-style: none; padding: 10px;}
+
+#s1 h2 {
+    padding: 5px;
+}
+
 section {
-    width: 1800px;
+    width: 1500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 700px);
@@ -57,4 +69,4 @@ section img {width: 700px;}
 
 section h2 {background: #655935; padding: 1.5rem; text-align: center;}
 
-footer {background: #5D5D7C; padding: 2rem; height: 80px;}
+footer {background: #5D5D7C; padding: 2rem; height: 80px; grid-column: 1/3;}
