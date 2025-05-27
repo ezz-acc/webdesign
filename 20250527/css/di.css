@@ -1,0 +1,28 @@
+* {box-sizing: border-box; margin: 0;padding: 0;}
+header, main, nav, aside, footer {border: 3px solid; border-radius: 1rem;}
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+header {background: gray; height: 100px; grid-column: 1/-1;}
+nav {background: green; height: 0;grid-column: 1/-1; visibility: hidden; border: 0;}
+main {background: #267b9c; height: 400px;}
+aside {background: peru; height: 400px;}
+footer {background: purple; height: 200px;grid-column: 1/-1;}
+
+@media screen and (max-width: 800px) {
+    body {display: flex; flex-wrap: wrap;}
+    header {width: 100%;}
+    nav {width: 100%; visibility: unset; height: 50px;}
+    #a1 {visibility: hidden; width: 0; border: 0; height: 0;}
+    main {width: 75%;}
+    aside {width: 25%;}
+    footer {width: 100%;}
+}
+
+@media screen and (max-width: 480px) {
+    body {display: grid;}
+    nav, #a1 {visibility: hidden; width: 0; border: 0; height: 0;}
+    aside {grid-column: 1/-1;grid-row: 2/3; height: 200px; visibility: unset; border: solid 3px; width: 100%;}
+    main {grid-row: 3/4;grid-column: 1/-1; width: 100%;}   
+}
