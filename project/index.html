@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/technova.png" alt="TechNova" width="20%">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="sub/products.html">Productos</a></li>
+            <li><a href="sub/aboutus.html">Sobre Nosotros</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Nuestros productos mas vendidos</h2>
+            <img src="img/Audifonos.jpeg" class="mySlides" width="30%">
+            <img src="img/Bombillo.jpeg" class="mySlides" width="30%">
+            <img src="img/Estacion.jpeg" class="mySlides" width="30%">
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 1000); // Change image every 2 seconds
+                }
+            </script>
+        </section>
+        <section>
+            <p>Explora mas <a href="sub/products.html">aqui</a></p>
+        </section>
+    </main>
+</body>
+</html>
